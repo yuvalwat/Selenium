@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression TestSuite]">
+  <test thread-count="5" verbose="0" name="Application Test(failed)">
+    <classes>
+      <class name="com.expedia.flightsbooking.TestNG_TestSuite">
+        <methods>
+          <include name="fillBasicInfo"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.expedia.flightsbooking.TestNG_TestSuite -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->
